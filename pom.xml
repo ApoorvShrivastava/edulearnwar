@@ -38,7 +38,8 @@
                         <configuration>
                             <outputDirectory>webapps</outputDirectory>
                             <warName>ROOT</warName>
-                          <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+                          <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
+                          <failOnMissingWebXml>false</failOnMissingWebXml>
                         </configuration>
                     </plugin>
                 </plugins>
